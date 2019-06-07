@@ -1,0 +1,35 @@
+{
+  "name": "pack",
+  "version": "0.1.1",
+  "description": "Generador de códigos de conducta",
+  "main": "./dist/index.js",
+  "bin": {
+    "pack": "./dist/global.js"
+  },
+  "directories": {
+    "dist": "dist",
+    "src": "src"
+  },
+  "keywords": [],
+  "author": "https://github.com/luispagarcia/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisPaGarcia/pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuisPaGarcia/pack/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "build": "babel src --out-dir dist"
+  },
+  "preferGlobal": true,
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-preset-minify": "^0.5.0"
+  }
+}
